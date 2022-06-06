@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.obox{
+	width: 500px;
+	background: url(../img/九宫格_03.jpg);
+	height:600px;
+	margin: 0 auto;
+}
+.box{
+	margin: 0px auto ;
+	background: white;
+	width: 60%;
+	text-align: center;
+	border-left:solid 4px red ;
+	border-right:solid 4px red ;
+	margin-top: 40px;
+	position: relative;
+	top: 40px;
+}
+.img1{
+	width: 30%;
+	margin: 20px 0;
+}
+.nav .img2{
+	position: relative;
+}
+
+.next img{
+	width: 50%;
+}
+.box span{
+	display: block;
+	width: 244px ;
+	height: 68px;
+	color: gold;
+	cursor: pointer;
+	background: url(../img/4.png)  no-repeat 0px 0px/244px 68px;
+}
