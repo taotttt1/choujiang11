@@ -3,10 +3,12 @@
 	padding: 0;
 }
 .obox{
-	width: 500px;
-	background: url(../img/九宫格_03.jpg);
-	height:600px;
+	width: 30%;
+	background: url(../img/九宫格_03.jpg) no-repeat 0px 0px/100% 100%;
 	margin: 0 auto;
+	padding-bottom: 80px;
+	margin-top: 20px;
+	display: block;
 }
 .box{
 	margin: 0px auto ;
@@ -15,7 +17,6 @@
 	text-align: center;
 	border-left:solid 4px red ;
 	border-right:solid 4px red ;
-	margin-top: 40px;
 	position: relative;
 	top: 40px;
 }
@@ -23,18 +24,109 @@
 	width: 30%;
 	margin: 20px 0;
 }
-.nav .img2{
-	position: relative;
+.box p{
+	width: 120px;
+	height: 25px;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 900;
+	color: #B3123B;
+	margin: 0 auto;
+	background: url(../img/2.png) no-repeat 0px 0px/120px 25px;
+}
+.img2{
+	width: 70%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.next img{
-	width: 50%;
-}
 .box span{
 	display: block;
-	width: 244px ;
-	height: 68px;
+	width: 120px ;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding-bottom: 50px;
 	color: gold;
 	cursor: pointer;
-	background: url(../img/4.png)  no-repeat 0px 0px/244px 68px;
+	background: url(../img/4.png)  no-repeat 0px 0px/120px 40px;
+}
+
+.second{
+	position: relative;
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 25%;
+	overflow: hidden;
+	background: url(../img/九宫格_02.jpg)  no-repeat  0px 0px/100% 100%;
+}
+.second b{
+	font-weight: 500;
+	display: block;
+	padding-top:164px ;
+	color: gold;
+	font-size: 15px;
+}
+.second a{
+	color: gold;
+	text-decoration: none;
+	margin-left: 60px;
+}
+.tishi{
+	margin: 0 auto;
+	width: 70%;
+	height: 240px;
+	background: white;
+	border-radius:10px ;
+	position:absolute;
+	top:30%;
+	left: 11%;
+	padding: 10px 4% 0;
+	display: none;
+}
+.tishi .queding {
+	width: 100%;
+	background: #E7E7E7;
+	margin-top: 20px;
+	font-size: 20px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.second-next{
+	list-style:none;
+	background: white;
+	width: 78%;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border: solid 5px red;
+}
+.second-next li{
+	width: 32%;
+	
+}
+.second-next li img{
+	display: block;
+	width: 100%;
+}
+.p1{
+	width: 78%;
+	height: 53px;
+	line-height: 53px;
+	color: gold;
+	cursor: pointer;
+	margin: 20px auto 0;
+	background: url(../img/a2.png) no-repeat 0px 0px/100% 53px;
+}
+.second-nav{
+	width: 78%;
+	height: 180px;
+	background: white;
+	border: solid 5px red;
+	margin: 20px auto 40px;
 }
