@@ -2,9 +2,11 @@
 	margin: 0;
 	padding: 0;
 }
-.obox{
-	width: 30%;
+body{
 	background: url(../img/九宫格_03.jpg) no-repeat 0px 0px/100% 100%;
+}
+.obox{
+	width: 78%;
 	margin: 0 auto;
 	padding-bottom: 80px;
 	margin-top: 20px;
@@ -55,12 +57,12 @@
 
 .second{
 	position: relative;
-	display: none;
+	display:none;
 	margin: 0 auto;
 	text-align: center;
 	width: 25%;
 	overflow: hidden;
-	background: url(../img/九宫格_02.jpg)  no-repeat  0px 0px/100% 100%;
+	background: url(../img/九宫格_02.jpg)  no-repeat 0px 0px/100% 100%;
 }
 .second b{
 	font-weight: 500;
