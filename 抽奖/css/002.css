@@ -30,6 +30,37 @@ body{
     cursor: pointer;
 }
 
+.box11-b{
+	width: 300px;
+	background: white;
+	position: fixed;
+	left: 13.5%;
+	top: 16%;
+	border-radius:10px ;
+	display: none;
+}
+.box11-b h3{
+	color: black;
+	font-size: 24px;
+	margin: 15px 0;
+}
+.box11-b p{
+	color: red;
+	font-size: 18px;
+}
+.box11-b-xia{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border-top:solid 1px #E7E7E7 ;
+	color: black;
+	font-size: 20px;
+}
+.box11-b-xia span{
+	display: block;
+	margin: 10px ;
+	cursor: pointer;
+}
 .box2 {
     width: 320px;
 }
@@ -46,12 +77,15 @@ body{
     justify-content: space-between;
     background: white;
     flex-wrap: wrap;
-        border: solid 5px #F1301E;
+    border: solid 5px #F1301E;
 }
 .list li {
     background: white;
     width: 32%;
     
+}
+.active{
+	border: solid 1px #999999;
 }
 .list li img {
     width: 100%;
@@ -81,20 +115,23 @@ a{
     background: white;
     margin-top: 20px;
     margin-left: 10px;
-        overflow: hidden;
+    overflow: hidden;
 }
-.box23 h3 {
+.box24 h3 {
     color: red;
-    margin-top: 10px;
     margin-left: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.box24{
+	width: 100%;
 }
 .box23 .list2 {
     margin-left: 10px;
     line-height: 30px;
     position: relative;
-	top: 0px;
-	transform: all 0.5s; 
-	animation: mybox23List 6s infinite;
+	top: 0px; 
+	animation: mybox23List 9s infinite;
 }
 @keyframes mybox23List{
 				0%{top: 0px;}
@@ -128,7 +165,7 @@ a{
 	top: 25%;
 	left: 11.5%;
 	border-radius:10px ;
-	display: block;
+	display: none;
 }
 .box4 h3{
 	font-weight: 900;
@@ -215,6 +252,43 @@ a{
     border-radius:0 0 10px 10px;
     height: 40px;
     line-height: 40px;
-
-	
+}
+.box7{
+	width: 350px;
+	background: white;
+	border-radius:10px ;
+	text-align: center;
+	padding-top: 10px;
+	font-weight:900 ;
+	position: fixed;
+	top: 25%;
+	display: none;
+}
+.box7 img {
+	width: 90px;
+}
+.box7 h3{
+	font-size: 24px;
+	margin-top:0px;
+}
+.box7 p{
+	margin-top: 10px;
+}
+.box7 p:nth-child(2){
+	font-size: 24px;
+	color: red;
+	font-weight: 900;
+	margin:10px 0 ;
+}
+.box7 p:nth-child(7){
+	margin-top:30px;
+}
+.box7 p:nth-child(8){
+	width: 100%;
+	border-top:solid 1px #E7E7E7 ;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	font-size: 20px;
 }
