@@ -36,6 +36,7 @@ window.onload = function(){
 			if(name.value==""){
 				box4p2.style.display="block";
 			}
+			
 			if(re.test(phone.value)==false){ // 手机号错误
 		    box4p1.style.display="block";
 		    }else{  // 手机号正确
